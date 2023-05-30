@@ -1,0 +1,13 @@
+{
+  "name": "VPC3 SPI ANALYZER",
+  "apiVersion": "1.0.0",
+  "author": "Thomas Poms",
+  "version": "0.0.1",
+  "description": "Analyzes VPC3 SPI frames",
+  "extensions": {
+    "VPC3 SPI Analyzer": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.HLA_SPI_MEMORY"
+    }
+  }
+}
